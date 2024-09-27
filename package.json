@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "sass": "^1.79.3"
+  },
+  "dependencies": {
+    "intl-tel-input": "^24.5.0",
+    "ion-rangeslider": "^2.3.1"
+  }
+}

@@ -1,0 +1,57 @@
+@use 'variables';
+
+@mixin flex-block ($flex-dir: row,$justify-position: center, $al-items-position: center) {
+    display: flex;
+    flex-direction: $flex-dir;
+    justify-content: $justify-position;
+    align-items: $al-items-position;
+}
+
+@mixin primaryText ($font-f: variables.$font-family-primary, $font-size: variables.$text-size-sm, $font-st: normal, $font-w: 400, $height: 24px, $color: variables.$color-black, $align: center, $mb: 0) {
+    font-family: $font-f;
+    font-size: $font-size;
+    font-style: $font-st;
+    font-weight: $font-w;
+    line-height: $height;
+    text-align: $align;
+    color: $color;
+    margin-bottom: $mb;
+}
+
+@mixin imageSize($w: 100%, $h: 100%, $d: block, $mb: 0) {
+    width: $w;
+    height: $h;
+    object-fit: cover;
+    display: $d;
+    margin-bottom: $mb;
+}
+
+@mixin input {
+    width: 100%;
+    height: 40px;
+    padding: 11px;
+    border-radius: 4px;
+    border: 0;
+    background: variables.$color-gray2;
+}
+
+@mixin btn ($height: 52px, $b-radius: 15px, $b-color: variables.$color-red2, $b-shadow: 3px 4px 10px 0px #00000040, $font-f: variables.$font-family-primary, $font-w: 400, $font-size: variables.$text-size-sm, $l-height: 22px, $color: variables.$bg-color-primary, $mb: 0) {
+    max-width: 360px;
+    width: 100%;
+    height: $height;
+    border-radius: $b-radius;
+    border: 0;
+    background: $b-color;
+    box-shadow: $b-shadow;
+    font-family: $font-f;
+    font-size: $font-size;
+    font-weight: $font-w;
+    line-height: $l-height;
+    text-align: center;
+    text-transform: capitalize;
+    color: $color;
+    margin-bottom: $mb;
+}
+
+
+

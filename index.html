@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ion-rangeslider@2.3.1/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <link rel="stylesheet" href="./static/css/index.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-row">
+                <img src="./static/images/image_1.svg" alt="logo" class="header__logo">
+                <ul class="header__menu-list">
+                    <li><a href="#">Informazioni</a></li>
+                    <li><a href="#">CEO</a></li>
+                    <li><a href="#">Iniziare a guadagnare subito</a></li>
+                </ul>
+                
+                <img src="./static/images/ion_menu-outline.png" alt="menu" class="header__menu-icon">      
+            </div>
+        </nav>
+    </header>
+    <section class="form-block">
+        <h2 class="form-block__title">Investire 250 euro per raggiungere 5000 euro in una settimana vi sembra impossibile? Con il Gruppo Generali potete fare ancora di più!</h2>
+        
+        <img class="form-block__image" src="./static/images/Rectangle8.png" alt="Investimento immagine">
+        <img class="form-block__image" src="./static/images/Rectangle4.png" alt="Investimento immagine">
+            
+        
+        <form class="form-block__form" id="registrationForm">
+            <div class="form-block__form-wrapper">
+                <div class="form-block__input-wrapper">
+                    <input class="form-block__input" type="text" id="name" name="name" autocomplete="off">
+                    <label for="name" class="form-block__label">Il suo nome</label>
+                    <small class="error-message"></small>
+                </div>
+                
+                <div class="form-block__input-wrapper">
+                    <input class="form-block__input" type="text" id="surname" name="surname" autocomplete="off">
+                    <label for="surname" class="form-block__label">Il suo cognome</label>
+                    <small class="error-message"></small>
+                </div>
+                
+                <div class="form-block__input-wrapper">
+                    <input class="form-block__input" type="email" id="email" name="email" autocomplete="off">
+                    <label for="email" class="form-block__label">E-mail</label>
+                    <small class="error-message"></small>
+                </div>
+                
+                <div class="form-block__input-wrapper">
+                    <input class="form-block__input" type="tel" id="phone" name="phone" autocomplete="tel-national">
+                    <label for="phone" class="form-block__label">+39</label>
+                    <small class="error-message"></small>
+                </div>
+                
+                <button class="form-block__button" type="submit">Registrati</button>
+            </div>
+        </form>
+        
+        
+        <div class="form-block__text-block">
+            <h4 class="form-block__subtitle">IL NOSTRO SCOPO</h4>
+            <h2 class="form-block__text">Siamo qui per promuovere lo sviluppo e la circolazione delle persone, delle imprese e del Paese.</h2>
+        </div>
+    </section>
+    
+    <section class="service">
+        <h2 class="service__title">Inizia a servire con noi</h2>
+        <div class="service__cards">
+            <div class="service-card">
+                <img class="service-card__image" src="./static/images/f7_doc-person.png" alt="Icona di registrazione">
+                <h3 class="service-card__title">Registrazione</h3>
+                <p class="service-card__description">Compilare tutti i campi del modulo di registrazione sul sito web.</p>
+                <button class="service-card__button">INIZIARE</button>
+            </div>
+            <div class="service-card">
+                <img class="service-card__image" src="./static/images/ph_detective-fill.png" alt="Icona di consultazione">
+                <h3 class="service-card__title">Consultazione di esperti</h3>
+                <p class="service-card__description">Dopo la registrazione, rispondere all'invito del Consulente di supporto di Petrol Energia e seguire tutte le sue istruzioni.</p>
+                <button class="service-card__button">INIZIARE</button>
+            </div>
+            <div class="service-card">
+                <img class="service-card__image" src="./static/images/ph_tree-light.png" alt="Icona di deposito">
+                <h3 class="service-card__title">Deposito</h3>
+                <p class="service-card__description">Dopo la verifica, è necessario depositare un minimo di 250 euro sul conto dell'azionista.</p>
+                <button class="service-card__button">INIZIARE</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="info-block">
+        <div class="info-block-wrapper">
+            <img src="./static/images/image21.png" alt="Philippe Donnet" class="info-block__image">
+            <div class="info-block__content">
+                <div class="info-block__content-wrapper">
+                    <blockquote class="info-block__text">
+                        Philippe Donnet, amministratore delegato di Generali, ha appena festeggiato dieci anni in Italia e in un’intervista a “Repubblica” spiega che bilancio trae dal nostro Paese: 
+                        “In questi dieci anni il mondo ha dovuto fare i conti con prove molto dure e questo ci ha resi più capaci di gestire l’imprevedibile. 
+                        L’Italia ha resistito bene. Per quanto mi riguarda, tre anni fa sono diventato cittadino italiano: perché ci tenevo a rimarcare un’adesione forte ai valori e alla cultura di questo Paese”.
+                        Un’altra prova per l’economia è stato il repentino rialzo dei tassi: “A mio parere è improprio parlare oggi di tassi alti: quando ero teenager, i mutui viaggiavano a due cifre percentuali. 
+                        La vera anomalia è stata vivere con tassi a zero per quindici anni. Oggi siamo in una situazione normale. 
+                        Per quel che riguarda il nostro gruppo, abbiamo un business mix grazie al quale possiamo crescere in qualsiasi ciclo economico”.
+                        La crescita dell’Italia è stimata attorno allo 0,7 per cento: “Noi non avremo problemi ma per la crescita si può fare meglio, in Italia e in Europa. 
+                        Ritengo che in Europa non ci sia abbastanza Europa, ma troppe tasse e troppe norme, che si sovrappongono a quelle nazionali. 
+                        Questo non aiuta né le famiglie né le imprese: quindi abbassiamo le tasse, riduciamo le norme e liberiamo le energie imprenditoriali”.
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="info-block__range">
+            <h2 class="info-block__subtitle">Potencijal dobiti</h2>
+            <div class="info-block__range-wrapper">
+                <div class="range">
+                    <input type="text" id="range__first" name="range" class="range__input" value="" />
+                    <input type="text" id="range__second" name="range" class="range__input" value="" />
+                    <button class="range__button">MOGUĆA DOBIT: <span class="range__profit">€ 8600</span></button>
+                </div>
+                <div class="info-block__profit-wrapper">   
+                    <div class="info-block__profit">
+                        <h3 class="info-block__profit-title">UKUPNA DOBIT KORISNIKA:</h3>
+                        <h2 class="info-block__profit-amount">€ 128 567 000</h2>
+                    </div>
+                    <div class="info-block__profit">
+                        <h3 class="info-block__profit-title">AKTIVNI KORISNICI:</h3>
+                        <h2 class="info-block__profit-amount">77 335</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card-slider-block">
+        <div class="card-slider">
+            <div class="card-block">
+                <div class="card-block__header">
+                    <img src="./static/images/av1.png" alt="photo" class="card-block__image">
+                    <div class="card-block__title">
+                        <h2 class="card-block__name">Jeff Bezos:</h2>
+                        <h4  class="card-block__role">Technologieunternehmer, Investor und Philanthrop</h4>
+                        <img src="./static/images/logos_facebook.png" alt="facebook" class="card-block__social-logo">
+                    </div>
+                </div>
+                <div class="card-block__text-wrapper">
+                    <p class="card-block__text">
+                        Dem Quantencomputing gehört die Zukunft. Ich übertreibe nicht, wenn ich sage, es wird alles verändern wird. Das Quantencomputing steht noch ganz am Anfang; nicht viele Menschen wissen davon, was bedeutet, dass nur sehr wenige es nutzen. Die wenigen, die es nutzen, treffen unglaublich kluge (und profitable) Entscheidungen.
+                    </p>
+                </div>
+            </div>
+            <div class="card-block">
+                <div class="card-block__header">
+                    <img src="./static/images/av2.png" alt="photo" class="card-block__image">
+                    <div class="card-block__title">
+                        
+                        <h2 class="card-block__name">Bill Gates:</h2>
+                        <h4 class="card-block__role">Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund</h4>
+                        <img src="./static/images/logos_facebook.png" alt="facebook" class="card-block__social-logo">
+                    </div>
+                </div>
+                <div class="card-block__text-wrapper">
+
+                    <p class="card-block__text">Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen Geld, um eine bessere Zukunft für alle zu finanzieren und um anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden! Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu sehen, wohin das führen wird.</p>
+                </div>
+                
+            </div>
+            <div class="card-block">
+                <div class="card-block__header">
+                    <img src="./static/images/av3.png" alt="photo" class="card-block__image">
+                    <div class="card-block__title">
+    
+                        <h2 class="card-block__name">Bill Gates:</h2>
+                        <h4 class="card-block__role">Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund</h4>
+                        <img src="./static/images/logos_facebook.png" alt="facebook" class="card-block__social-logo">
+                    </div>
+                </div>
+                <div class="card-block__text-wrapper">
+
+                    <p class="card-block__text">Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen Geld, um eine bessere Zukunft für alle zu finanzieren und um anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden! Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu sehen, wohin das führen wird.</p>
+                </div>
+            </div>
+            <div class="card-block">
+                <div class="card-block__header">
+                    <img src="./static/images/av4.png" alt="photo" class="card-block__image">
+                    <div class="card-block__title">
+    
+                        <h2 class="card-block__name">Bill Gates:</h2>
+                        <h4 class="card-block__role">Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund</h4>
+                        <img src="./static/images/logos_facebook.png" alt="facebook" class="card-block__social-logo">
+                    </div>
+                </div>
+                <div class="card-block__text-wrapper">
+                    
+                    <p class="card-block__text">Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen Geld, um eine bessere Zukunft für alle zu finanzieren und um anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden! Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu sehen, wohin das führen wird.</p>
+                </div>
+            </div>
+            <div class="card-block">
+                <div class="card-block__header">
+                    <img src="./static/images/av5.png" alt="photo" class="card-block__image">
+                    <div class="card-block__title">
+    
+                        <h2 class="card-block__name">Bill Gates:</h2>
+                        <h4 class="card-block__role">Wirtschaftsmagnat, Investor, Autor, Philanthrop und Menschenfreund</h4>
+                        <img src="./static/images/logos_facebook.png" alt="facebook" class="card-block__social-logo">
+                    </div>
+                </div>
+                <div class="card-block__text-wrapper">
+
+                    <p class="card-block__text">Ich weiß mit Sicherheit, dass Elon 3 Milliarden Dollar von seinem eigenen Geld ausgegeben hat, um dieses Programm zu finanzieren. Hut ab vor ihm - das sind 3 Milliarden Dollar von seinem eigenen Geld, um eine bessere Zukunft für alle zu finanzieren und um anderen zu helfen Gewinne zu machen, die ihm dabei helfen werden! Das ist eine Win-Win-Situation, und ich bin sehr gespannt zu sehen, wohin das führen wird.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="shareholders">
+        <h1 class="shareholders__title">Gli azionisti dell'azienda</h1>
+        <div class="shareholders__grid-column">
+            <div class="shareholders__grid-row">
+                <img src="./static/images/img3.png" alt="MEDIOBANCA" class="shareholders__image">            
+                <img src="./static/images/img4.png" alt="UniCredit" class="shareholders__image">
+                <img src="./static/images/img5.png" alt="BANCA D'ITALIA" class="shareholders__image">
+            </div>
+            <div class="shareholders__grid-row">
+                <img src="./static/images/img6.png" alt="B&D" class="shareholders__image">
+                <img src="./static/images/img7.png" alt="Carlo" class="shareholders__image">
+                <img src="./static/images/img8.png" alt="GENERALI" class="shareholders__image">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <ul class="footer__nav">
+            <li class="footer__item"><a href="#">Mappa del sito</a></li>
+            <li class="footer__item"><a href="#">Termini di utilizzo</a></li>
+            <li class="footer__item"><a href="#">Avviso di accessibilità</a></li>
+            <li class="footer__item"><a href="#">Gestione dei Cookie</a></li>
+            <li class="footer__item"><a href="#">Politica sulla protezione dei dati e informativa sulla privacy</a></li>
+            <li class="footer__item"><a href="#">Avviso di frode Web e phishing</a></li>
+            <li class="footer__item"><a href="#">Politica sui reclami – Australia</a></li>
+        </ul>
+        <img src="./static/images/image_3.png" alt="Logo" class="footer__logo">
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ion-rangeslider@2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</body>
+</html>
